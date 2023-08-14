@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--Fontaweasome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h3>JavaScript</h3>
+
+      <nav id="menuBar">
+        <a href="">Ana Sayfa</a>
+        <a href="">Menüler</a>
+        <a href="">Yorumlar</a>
+        <a href="">İletişime Geç</a>
+      </nav>
+<div class="header-right">
+
+    <div class="fa-solid fa-user" id="userButton"></div>
+    <div class="fa-solid fa-bars" id="menuButton"></div>
+</div>
+    </header>
+
+  <div class="box">
+    <div class="addUser">
+        <h4>Kullanıcı Ekle</h4>
+        <div class="inputBox">
+          <label for="">Kullanıcı Adı</label>
+          <input type="text" id="nameInput" />
+        </div>
+        <div class="inputBox">
+          <label for="">Kullanıcı Soyadı</label>
+          <input type="text" id="surnameInput" />
+        </div>
+        <div class="inputBox">
+          <label for="">Kullanıcı Cinsiyeti</label>
+          <input type="text" id="genderInput" />
+        </div>
+        <div class="inputBox">
+          <label for="">Yaşadığı Yer</label>
+          <input type="text" id="locationInput" />
+        </div>
+        <div class="inputBox">
+          <label for="">Kullanıcı Yaşı</label>
+          <input type="number" id="ageInput" />
+        </div>
+  
+        <a href="#" id="addButton">Kullanıcı Ekle</a>
+      </div>
+<div class="users">
+    <h4>Sistemdeki Kullanıcılar</h4>
+    <div id="userList">
+
+    </div>
+</div>
+  </div>
+
+    <!--Script Dosyası-->
+    <script src="main.js"></script>
+  </body>
+</html>
